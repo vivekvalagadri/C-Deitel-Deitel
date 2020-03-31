@@ -1,6 +1,7 @@
 #include <stdio.h>
  
  int main(){
+	//just version control stuff 
  	double a,b;
  	printf("%s\n","Please Enter digit one");
  	scanf("%lf",&a);
