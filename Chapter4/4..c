@@ -1,5 +1,5 @@
 /*
-Program for
+Program for 
 */
 
 #include <stdio.h>
