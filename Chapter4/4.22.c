@@ -57,4 +57,5 @@ printf("B: %u\n", bCount);
 printf("C: %u\n", cCount);
 printf("D: %u\n", dCount);
 printf("F: %u\n", fCount);
+//calc
 }
