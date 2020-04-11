@@ -1,5 +1,5 @@
 /*
-Program for Calculating compound interest.
+Program for Calculating compound interest. 
 */
 
 #include <stdio.h>

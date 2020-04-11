@@ -1,5 +1,5 @@
 /*
-Program for average grade
+Program for average grade 
 */
 
 // Fig. 4.7: fig04_07.c

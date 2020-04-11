@@ -1,5 +1,5 @@
 /*
-Program for printing decimals binary and octal
+Program for printing decimals binary and octal 
 */
 
 #include <stdio.h>
