@@ -1,6 +1,6 @@
 /*
 Program for calculating pythogaras triplets
-concidering 3,4,5 and 4,3,5 as one triplet
+concidering 3,4,5 and 4,3,5 as one triplet 
 */
 
 #include <stdio.h>

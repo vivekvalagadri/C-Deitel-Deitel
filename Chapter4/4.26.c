@@ -1,5 +1,5 @@
 /*
-Program for calculating approximate value of pi
+Program for calculating approximate value of pi 
 */
 
 #include <stdio.h>
