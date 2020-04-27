@@ -55,8 +55,10 @@ int craps(){
 int main(void){
 	static int bankBalance=1000,wager;
 	while(1){
-		puts("Enter Wager");
+		puts("Enter Wager and 0 to quit");
 		scanf("%d",&wager);
+		if (wager==0)
+			break;
 		while(wager>bankBalance){
 			puts("Please Enter Lower Wager");
 			scanf("%d",&wager);
