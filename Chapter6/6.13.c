@@ -12,8 +12,8 @@ int main(){
 	int ar2[SIZE2];
 	scania(ar1,SIZE1);
 	scania(ar2,SIZE2);
-	for(int i=0;i<SIZE1;i++){
-		for(int j=i+1;j<SIZE1;j++){
+	for(int i=0;i<SIZE1;i++){			//making set 1 such that it has 
+		for(int j=i+1;j<SIZE1;j++){		//no repeating elements
 			if(ar1[i]==ar1[j]){
 				ar1[j]=ar1[SIZE1-1];
 				SIZE1=SIZE1-1;
@@ -21,8 +21,8 @@ int main(){
 		}
 	}
 
-	for(int i=0;i<SIZE2;i++){
-		for(int j=i+1;j<SIZE2;j++){
+	for(int i=0;i<SIZE2;i++){		   //making set 2 such that it has
+		for(int j=i+1;j<SIZE2;j++){	   //no repeating elements
 			if(ar2[i]==ar2[j]){
 				ar2[j]=ar2[SIZE2-1];
 				SIZE2=SIZE2-1;
@@ -32,7 +32,7 @@ int main(){
 	int newSize=SIZE1+SIZE2;
 	int ar3[newSize];
 	int k=0;
-	for(int i=0;i<SIZE1;i++){
+	for(int i=0;i<SIZE1;i++){		//Storing only the repeating ones
 		int count=0;
 		for(int j=0;j<SIZE1;j++){
 			if(ar2[i]==ar1[j]){
