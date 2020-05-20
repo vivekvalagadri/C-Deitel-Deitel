@@ -4,8 +4,6 @@ Program for demonstrate left shift
 
 #include <stdio.h>
 
-
-
 unsigned int pow2(unsigned int number,int pow){
 	int mul=1;
 	for(int i=0;i<pow;i++){
