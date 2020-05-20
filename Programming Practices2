@@ -1,0 +1,5 @@
+1)We prefer to include the letters Ptr in pointer variable names to make it clear that these variables are pointers and need to be handled appropriately.
+2)Initialize pointers to prevent unexpected results.
+3)Use pass-by-value to pass arguments to a function unless the caller explicitly requires the called function to modify the value of the argument variable in the caller’s environment.This prevents accidental modification of the caller’s arguments and is another example ofthe principle of least privilege.
+4)The const qualifier can be used to enforce the principle of least privilege in softwaredesign. This can reduce debugging time and prevent unintentional side effects,making a program easierto modify and maintain.
+5)

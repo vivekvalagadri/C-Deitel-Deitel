@@ -8,7 +8,7 @@ Program for Total sales in 2D
 
 typedef struct Slip
 {
-	int product_number;and 
+	int product_number;
 	int salesperson_number;
 	int dollar_value;
 	

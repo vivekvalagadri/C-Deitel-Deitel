@@ -1,0 +1,18 @@
+1) Initialize all counters and totals.
+2) When performing division by an expression whose value could be zero, explicitly test for
+this case and handle it appropriately in your program (such as by printing an error mes-
+sage) rather than allowing the fatal error to occur.
+3)The post increments relies on the principle of use-then-change. It increments the value after using it once. Pre increment on the other hand, uses change-then-use principle i.e. it firstly increments the value and then uses it.
+4)The Dangling else problem, occours in nested if (SEE vivekvalagadri/C-CPP-Deitel-Deitel 3.30.c for ref).
+	The danling else problem is ambiguous for the reader and not the compiler.The compiler chooses the last if and the corresponding else is taken
+5)Although the value of the control variable can be changed in the body of a for loop, this can lead to subtle errors. It’s best not to change it.
+
+6)Specifying function parameters of the same type as double x, y instead of double x, double y results in a compilation error.
+7)Placing a semicolon after the right parenthesis enclosing the parameter list of a function definition is a syntax error.
+8)Redefining a parameter as a local variable in a function is a compilation error.
+9)Although it’s not incorrect to do so, do not use the same names for a function’s argumentsand the corresponding parameters in the function definition. This helps avoid ambiguity.
+10)Defining a function inside another function is a syntax error.
+11)Use only uppercase letters in the names of enumeration constants to make these constants stand out in a program and to indicate that enumeration constants are not variables.
+12)(when #defining)Assigning a value to a symbolic constant in an executable statement is a syntax error. The compiler does not reserve space for symbolic constants as it does for variables that hold values at execution time.
+Defining the size of each array as a symbolic constant makes programs more modifiable.
+
